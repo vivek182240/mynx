@@ -1,0 +1,15 @@
+{
+  "name": "creator-connect",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "npm install --workspaces",
+    "build": "npm -ws run build",
+    "dev": "npm -ws run dev"
+  }
+}
